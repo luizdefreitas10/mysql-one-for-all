@@ -90,7 +90,6 @@ export default class Character implements Fighter {
   }
 
   get energy(): Energy {
-    // console.log({ ...this._energy });
     return { ...this._energy };
   }
 }
